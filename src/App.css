@@ -1,0 +1,37 @@
+/* standards ________________________________________________________________*/
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: none;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --black010: rgba(0, 0, 0, 0.1);
+  --black050: rgba(0, 0, 0, 0.5);
+  --gray010: rgba(128, 128, 128, 0.1);
+  --gray050: rgba(128, 128, 128, 0.5);
+  --white010: rgba(255, 255, 255, 0.1);
+  --white050: rgba(255, 255, 255, 0.5);
+  --accent: lightsteelblue;
+  --shadow: 0 0 0.5rem var(--black050);
+  --dark-bg-color: rgb(33, 33, 33);
+  --dark-color: rgb(222, 222, 222);
+  background-color: var(--dark-bg-color);
+  color: var(--dark-color);
+}
+
+/* ------------------------------------------------------------------------- */
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  outline: 1px solid var(--dark-color);
+}
