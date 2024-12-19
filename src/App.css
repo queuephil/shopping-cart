@@ -31,7 +31,21 @@
 
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1rem;
   outline: 1px solid var(--dark-color);
+  > a:hover {
+    transform: scale(1.1);
+    transition: 100ms ease-out;
+  }
+}
+
+.cartIcon {
+  position: relative;
+}
+.cartIcon > div {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -10px;
+  right: -6px;
 }
